@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chetan Sharma | Cybersecurity & Software Developer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <nav class="glass-nav">
+    <div class="nav-content">
+      <div class="logo">&lt;C/S&gt;</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <p class="greeting">Hi, I am</p>
+        <h1 class="glitch-text" data-text="Chetan Sharma">Chetan Sharma</h1>
+        <h2 class="typing-container"><span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+        <p class="hero-desc">I am a Computer Science undergraduate with a strong focus on cybersecurity, secure system
+          design, and core computer science fundamentals. Bridging the gap between offensive security and robust
+          software engineering.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-graphic">
+        <div class="glass-card terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">chetan@sys:~$</span> whoami</p>
+            <p class="output">Cybersecurity Enthusiast & Software Developer</p>
+            <p><span class="prompt">chetan@sys:~$</span> cat mindset.txt</p>
+            <p class="output text-highlight">"Engineering clean architecture while anticipating adversarial tactics."
+            </p>
+            <p><span class="prompt">chetan@sys:~$</span> <span class="blink">_</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About and Exploring -->
+    <section id="about" class="about-section">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="glass-card about-text">
+          <p>While security is my specialization, I approach software development with an engineering mindset —
+            emphasizing clean architecture, performance, and scalability.</p>
+          <br>
+          <p>I believe in understanding systems deeply: networking, operating systems, protocols, and memory — not just
+            frameworks.</p>
+        </div>
+        <div class="glass-card exploring">
+          <h3><i class="fa-solid fa-compass"></i> Currently Exploring</h3>
+          <ul class="tag-list">
+            <li>Advanced Web Security</li>
+            <li>API Security Testing</li>
+            <li>Secure Coding Practices</li>
+            <li>Competitive Programming</li>
+            <li>System Design Fundamentals</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="glass-card skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Programming</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>C++</span><span>Java</span><span>Bash</span>
+          </div>
+        </div>
+        <div class="glass-card skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Cybersecurity</h3>
+          <div class="skill-tags">
+            <span>Web App Security Testing</span><span>Subdomain Enumeration</span>
+            <span>Network Scanning</span><span>Linux Hardening</span><span>Basic Digital Forensics</span>
+          </div>
+        </div>
+        <div class="glass-card skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-microchip"></i></div>
+          <h3>Core CS</h3>
+          <div class="skill-tags">
+            <span>Data Structures & Algorithms</span><span>Operating Systems</span>
+            <span>Computer Networks</span><span>DBMS</span>
+          </div>
+        </div>
+        <div class="glass-card skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+          <h3>Tools & Platforms</h3>
+          <div class="skill-tags">
+            <span>Git & GitHub</span><span>Linux</span><span>Wireshark</span>
+            <span>Nmap</span><span>Burp Suite</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="glass-card project-card">
+          <div class="project-content">
+            <h3>SubPulse</h3>
+            <p class="subtitle">Subdomain Enumeration Tool</p>
+            <p class="project-desc">A modular Python-based subdomain enumeration and live host detection tool with
+              automated discovery and structured output formatting.</p>
+            <div class="tech-stack-mini">
+              <span>Python</span><span>Requests</span><span>DNS</span><span>Threading</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/yourusername" class="btn-icon"><i class="fa-brands fa-github"></i>
+              Repository</a>
+          </div>
+        </div>
+
+        <div class="glass-card project-card">
+          <div class="project-content">
+            <h3>Password Vault</h3>
+            <p class="subtitle">CLI-Based Secure Manager</p>
+            <p class="project-desc">A secure command-line password manager with AES-based encryption, master password
+              authentication, and secure local storage.</p>
+            <div class="tech-stack-mini">
+              <span>Python</span><span>Cryptography</span><span>CLI</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/yourusername" class="btn-icon"><i class="fa-brands fa-github"></i>
+              Repository</a>
+          </div>
+        </div>
+
+        <div class="glass-card project-card">
+          <div class="project-content">
+            <h3>Networking Labs</h3>
+            <p class="subtitle">Simulations & Experiments</p>
+            <p class="project-desc">Hands-on implementations and protocol-level analysis including Stop-and-Wait ARQ
+              simulation, TCP/IP inspection, and DNS traffic.</p>
+            <div class="tech-stack-mini">
+              <span>Protocols</span><span>TCP/IP</span><span>Wireshark</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/yourusername" class="btn-icon"><i class="fa-solid fa-flask"></i> Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="achievements-section">
+      <h2 class="section-title">Achievements</h2>
+      <div class="glass-card achievements-card">
+        <ul class="achievement-list">
+          <li><i class="fa-solid fa-trophy"></i> Built custom cybersecurity automation tools to streamline
+            reconnaissance workflows.</li>
+          <li><i class="fa-solid fa-network-wired"></i> Completed practical, deep-dive networking and security labs
+            bridging theory to practice.</li>
+          <li><i class="fa-brands fa-github-alt"></i> Active open-source contributor supporting security and cleanly
+            engineered tools.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <br>
+      <div class="glass-card contact-card">
+        <h2>Let's Connect</h2>
+        <p>I'm open to discussing cybersecurity, software engineering, or any exciting opportunities!</p>
+        <div class="social-links">
+          <a href="chetansharma20k@gmail.com" class="social-btn"><i class="fa-solid fa-envelope"></i> Email</a>
+          <a href="https://www.linkedin.com/in/chetan-sharma-0a3949289/" class="social-btn"><i
+              class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/ChetanSharma200" class="social-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="social-btn btn-primary"><i class="fa-solid fa-file-pdf"></i> Resume</a>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Chetan Sharma. Built with <i class="fa-solid fa-heart" style="color: #ff3366;"></i> & Code.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
